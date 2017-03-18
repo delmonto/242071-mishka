@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Вязание на заказ</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <nav class="main-nav">
+      <div class="main-nav__logo"><img src="http://placehold.it/86x35" width="86" height="35" alt="Mishka"></div>
+      <nav class="main-nav__toggle">Открыть меню</nav>
+    </nav>
+
+    <div class="header-title">
+      <h1 class="header-title__text">Вязание на заказ</h1>
+    </div>
+  </header>
+
+  <main class="order">
+    <p class="order__desc">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+
+    <form class="order-form" action="https://echo.htmlacademy.ru/" method="post">
+
+      <div class="order-form__type">
+        <h2 class="order-form-title">Тип</h2>
+        <ul class="order-form__type-group">
+          <li class="order-form__type-item">
+            <input type="radio" name="accessory" id="accessory">
+            <label for="accessory">Аксессуар для интерьера</label>
+          </li>
+          <li class="order-form__type-item">
+            <input type="radio" name="toy" id="toy">
+            <label for="toy">Детская игрушка</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-form__color">
+        <h2 class="order-form-title">Цвет</h2>
+        <ul class="order-form__color-group">
+          <li class="order-form__color-item">
+            <input type="checkbox" name="white" id="white">
+            <label for="white">Белый</label>
+          </li>
+          <li class="order-form__color-item">
+            <input type="checkbox" name="gray" id="gray">
+            <label for="gray">Серый</label>
+          </li>
+          <li class="order-form__color-item">
+            <input type="checkbox" name="tiffany" id="tiffany">
+            <label for="tiffany">«Тиффани»</label>
+          </li>
+          <li class="order-form__color-item">
+            <input type="checkbox" name="black" id="black">
+            <label for="black">Черный</label>
+          </li>
+          <li class="order-form__color-item">
+            <input type="checkbox" name="pink" id="pink">
+            <label for="pink">Розовый</label>
+          </li>
+          <li class="order-form__color-item">
+            <input type="checkbox" name="orange" id="orange">
+            <label for="orange">Оранжевый</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-form__fullname">
+        <h2 class="order-form-title">Фио</h2>
+        <div class="order-form__fullname-group">
+          <label for="first-name">Имя:</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Введите ваше имя*" required>
+        </div>
+
+        <div class="order-form__fullname-group">
+          <label for="first-name">Фамилия:</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Укажите фамилию*" required>
+        </div>
+
+        <div class="order-form__fullname-group">
+          <label for="middle-name">Отчество:</label>
+          <input type="text" name="middle-name" id="middle-name" placeholder="Отчество, если желаете">
+        </div>
+      </div>
+
+      <div class="order-form__phone">
+        <h2 class="order-form-title">Тел</h2>
+        <div class="order-form__phone-input">
+          <input type="tel" name="phone" id="phone" placeholder="+7 ХХХ ХХ ХХ*" required>
+        </div>
+      </div>
+
+      <div class="order-form__email">
+        <h2 class="order-form-title">E-mail</h2>
+        <div class="order-form__email-input">
+          <input type="email" name="email" id="email" placeholder="Ваш Email*" required>
+        </div>
+      </div>
+
+      <div class="order-form__extra-info">
+        <h2 class="order-form-title">Доп</h2>
+        <div class="order-form__extra-info-item">
+          <textarea name="extra" id="extra" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        </div>
+      </div>
+
+      <p class="order-form__required-text">*Поля обязательны для заполнения</p>
+      <button type="submit">ОТПРАВИТЬ ЗАКАЗ</button>
+    </form>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__social">
+      <ul class="page-footer__social-links">
+        <li class="page-footer__social-link"><a class="social-link-instagram" href="#">Интсаграм</a></li>
+        <li class="page-footer__social-link"><a class="social-link-facebook" href="#">Фейсбук</a></li>
+        <li class="page-footer__social-link"><a class="social-link-twitter" href="#">Твиттер</a></li>
+      </ul>
+    </div>
+
+    <div class="page-footer__copyright">
+      <p class="page-footer__copyright-text">
+        Разработано
+        <a class="page-footer__copyright-logo" href="#">HTML Academy</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
